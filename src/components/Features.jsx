@@ -16,8 +16,8 @@ function Features() {
                     </div>
 
                     <div class="lg:p-16 text-center lg:text-justify lg:max-w-2xl bg-white lg:absolute left-[30rem] top-[8rem]">
-                        <h2 class="mt-8 lg:mt-0 text-xl font-thin tracking-wider leading-tight text-gray-500 lg:text-black sm:text-4xl lg:text-4xl lg:leading-tight">THE LEADER IN<br/> INTERACTIVE VR</h2>
-                        <p class="text-lg text-gray-500 mt-9">
+                        <h2 class="mt-8 lg:mt-0 text-xl font-thin tracking-wider leading-tight text-gray-700 sm:text-4xl lg:text-4xl lg:leading-tight">THE LEADER IN<br/> INTERACTIVE VR</h2>
+                        <p class="text-lg text-gray-700 mt-9">
                             Founded in 2011, Loopstudios has been producing world-class
                             virtual reality projects for some of the best companies around the globe.
                             Our award-winning creations have transformed businesses through digital experiences that binf to their brand.
