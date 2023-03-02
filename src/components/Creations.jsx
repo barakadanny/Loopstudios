@@ -11,7 +11,7 @@ import imagegrid from '../assets/images/desktop/imagegrid.jpg';
 function Creations() {
   return (
     <div>
-      <section class="py-10 bg-white sm:py-16 lg:py-24">
+      <section class="pt-0 bg-white sm:pt-0 lg:pt-0">
     <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-screen-xl">
         <div class="">
             <h2 class="text-xl font-thin tracking-wider leading-tight text-black sm:text-4xl lg:leading-tight">OUR CREATIONS</h2>
