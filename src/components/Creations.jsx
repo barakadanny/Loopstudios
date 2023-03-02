@@ -11,10 +11,11 @@ import imagegrid from '../assets/images/desktop/imagegrid.jpg';
 function Creations() {
   return (
     <div>
-      <section class="pt-0 bg-white sm:pt-0 lg:pt-0">
+<section class="pt-0 pb-10 bg-white sm:pt-0 lg:pt-0">
     <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-screen-xl">
-        <div class="">
-            <h2 class="text-xl font-thin tracking-wider leading-tight text-black sm:text-4xl lg:leading-tight">OUR CREATIONS</h2>
+        <div class="flex justify-center lg:justify-between">
+            <h2 class="text-xl font-thin tracking-wider leading-tight text-gray-700 sm:text-4xl lg:leading-tight">OUR CREATIONS</h2>
+            <a href="#" className='hidden lg:block border border-gray-700 hover:bg-black hover:text-white px-7 py-2'>SEE ALL</a>
         </div>
 
         <div class="grid grid-cols-1 gap-4 mt-8 sm:grid-cols-4 md:mt-16 lg:gap-x-4">
@@ -77,7 +78,7 @@ function Creations() {
         </div>
 
         <div class="mt-8 text-center md:mt-16">
-            <a href="#" title="" class="inline-flex items-center justify-center py-4 font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md px-14 hover:bg-blue-700 focus:bg-blue-700" role="button"> Join our team </a>
+            <a href="#" title="" class="inline-flex lg:hidden items-center justify-center border border-gray-700 hover:bg-black hover:text-white px-7 py-2" role="button"> SEE ALL </a>
         </div>
     </div>
 </section>
