@@ -15,7 +15,16 @@ function Creations() {
     <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-screen-xl">
         <div class="flex justify-center lg:justify-between">
             <h2 class="text-xl font-thin tracking-wider leading-tight text-gray-700 sm:text-4xl lg:leading-tight">OUR CREATIONS</h2>
-            <a href="#" className='hidden lg:block border border-gray-700 hover:bg-black hover:text-white px-7 py-2'>SEE ALL</a>
+            <a
+            target="_blank"
+            href="#"
+            class="group hidden  relative lg:inline-flex items-center justify-start overflow-hidden border border-black bg-white px-8 py-2 font-medium transition-all hover:bg-black"
+            >
+                <span class="absolute inset-0 border-0 border-black transition-all duration-100 ease-linear group-hover:border-[25px]"></span>
+                <span class="relative w-full text-left tracking-wider text-black transition-colors duration-200 ease-in-out group-hover:text-white">
+                    SEE ALL
+                </span>
+            </a>
         </div>
 
         <div class="grid grid-cols-1 gap-4 mt-8 sm:grid-cols-4 md:mt-16 lg:gap-x-4">
