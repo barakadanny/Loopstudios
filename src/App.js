@@ -3,6 +3,7 @@ import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import Features from "./components/Features";
 import Creations from "./components/Creations";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Features/>
       <Creations/>
+      <Footer/>
     </>
   );
 }
