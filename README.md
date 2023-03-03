@@ -52,6 +52,7 @@ Loopstudios landing page is a responsive web application designed to showcase a 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+![desktop-preview](https://user-images.githubusercontent.com/53088629/222853787-d7338cdf-655c-425d-a65e-65bf4b40230e.jpg)
 
 
 ### Built With
