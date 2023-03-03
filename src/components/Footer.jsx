@@ -8,7 +8,7 @@ function Footer() {
                 <div class="text-center xl:flex xl:items-center xl:justify-between xl:text-left">
                     <div class="">
                         <h1 className='text-white lg:mb-3'>Loopstudios</h1>
-                        <ul class="flex flex-wrap items-center justify-center gap-x-4 gap-y-3 xl:justify-end">
+                        <ul class="flex flex-col flex-wrap md:flex-row  items-center justify-center gap-x-4 gap-y-3 xl:justify-end">
                             <li>
                                 <a href="#" title="" class="text-sm text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> About </a>
                             </li>
@@ -65,7 +65,7 @@ function Footer() {
                             </li>
                         </ul>
 
-                        <p class="mt-5 text-sm text-white xl:ml-6 xl:mt-0">© Copyright 2023 Postcraft</p>
+                        <p class="mt-5 text-sm text-white xl:ml-6 xl:mt-0">© Copyright 2023 Loomstudios. All right reserved.</p>
 
                     </div>
                 </div>
