@@ -20,7 +20,7 @@ function Nav() {
                 <button 
                 data-collapse-toggle="navbar-default" 
                 type="button" 
-                class="inline-flex z-50 items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" 
+                class="inline-flex z-50 items-center p-2 ml-3 text-sm text-gray-500 md:hidden focus:outline-none focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" 
                 aria-controls="navbar-default" 
                 aria-expanded="false"
                 onClick={toggleMenu}
@@ -43,19 +43,19 @@ function Nav() {
                 >
                     <ul class="flex flex-col text-4xl gap-5 uppercase mt-16 || md:gap-0 md:normal-case p-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0">
                         <li>
-                        <a href="#" class="block py-2 pl-3 pr-4 text-white  md:p-0 " aria-current="page">About</a>
+                        <a href="#" class="block py-2 pl-3 pr-4 text-white  md:p-0 hover:text-yellow-300" aria-current="page">About</a>
                         </li>
                         <li>
-                        <a href="#" class="block py-2 pl-3 pr-4 text-white md:p-0">Careers</a>
+                        <a href="#" class="block py-2 pl-3 pr-4 text-white md:p-0 hover:text-yellow-300">Careers</a>
                         </li>
                         <li>
-                        <a href="#" class="block py-2 pl-3 pr-4 text-white md:p-0">Events</a>
+                        <a href="#" class="block py-2 pl-3 pr-4 text-white md:p-0 hover:text-yellow-300">Events</a>
                         </li>
                         <li>
-                        <a href="#" class="block py-2 pl-3 pr-4 text-white  md:p-0">Products</a>
+                        <a href="#" class="block py-2 pl-3 pr-4 text-white  md:p-0 hover:text-yellow-300">Products</a>
                         </li>
                         <li>
-                        <a href="#" class="block py-2 pl-3 pr-4 text-white md:p-0">Support</a>
+                        <a href="#" class="block py-2 pl-3 pr-4 text-white md:p-0 hover:text-yellow-300">Support</a>
                         </li>
                     </ul>
                 </div>
