@@ -11,7 +11,7 @@ function Nav() {
 
   return (
     <div>
-        <nav class="absolute top-0 left-0 right-0  z-20 bg-transparent">
+        <nav class="absolute top-0 left-0 right-0  z-20 bg-transparent overflow-hidden">
             <div class="relative px-4 sm:px-6 lg:px-8 max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
                 <a href="https://flowbite.com/" class="flex items-center">
                     <span class="self-center text-xl font-semibold whitespace-nowrap text-white z-50">Loopstudio</span>
